@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "BrainIn Manifest Importer",
+  "version": "0.1.1",
+  "description": "Imports BrainIn deployment manifest data into the BrainIn program edit form, including input parameters and partial results.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://brainin.kiv.zcu.cz/Program/Manage/*",
+        "http://brainin.kiv.zcu.cz/Program/Manage/*",
+        "https://localhost/Program/Manage/*",
+        "http://localhost/Program/Manage/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "styles.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}

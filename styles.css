@@ -1,0 +1,116 @@
+#brainin-manifest-importer-panel {
+  margin: 16px 0;
+  border: 1px solid #ccd4dd;
+  border-radius: 8px;
+  background: #f8fbff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+#brainin-manifest-importer-panel .bmi-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 14px;
+  background: #1f6feb;
+  color: #fff;
+  font-weight: 700;
+}
+
+#brainin-manifest-importer-panel .bmi-body {
+  padding: 14px;
+}
+
+#brainin-manifest-importer-panel .bmi-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#brainin-manifest-importer-panel .bmi-row label {
+  margin: 0;
+  font-weight: 600;
+}
+
+#brainin-manifest-importer-panel .bmi-options label {
+  font-weight: 400;
+  margin-right: 14px;
+}
+
+#brainin-manifest-importer-panel .bmi-file-input {
+  max-width: 520px;
+}
+
+#brainin-manifest-importer-panel .bmi-preview,
+#brainin-manifest-importer-panel .bmi-log {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 6px;
+  background: #fff;
+  border: 1px solid #d8dee6;
+  white-space: pre-wrap;
+  font-family: Consolas, Monaco, monospace;
+  font-size: 12px;
+  max-height: 260px;
+  overflow: auto;
+}
+
+#brainin-manifest-importer-panel .bmi-log.bmi-error {
+  border-color: #dc3545;
+  background: #fff5f5;
+}
+
+#brainin-manifest-importer-panel .bmi-log.bmi-success {
+  border-color: #28a745;
+  background: #f3fff6;
+}
+
+#brainin-manifest-importer-panel .bmi-button {
+  border: 0;
+  border-radius: 4px;
+  padding: 7px 12px;
+  cursor: pointer;
+  color: #fff;
+  background: #1f6feb;
+}
+
+#brainin-manifest-importer-panel .bmi-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+#brainin-manifest-importer-panel .bmi-button-secondary {
+  background: #6c757d;
+}
+
+#brainin-manifest-importer-panel .bmi-button-success {
+  background: #2da44e;
+}
+
+#brainin-manifest-importer-panel .bmi-badge {
+  display: inline-block;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: #e9f2ff;
+  color: #0969da;
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.bmi-generated-row {
+  background: #f7fbff;
+  border: 1px dashed #8bb8e8;
+  border-radius: 6px;
+  padding: 8px;
+  margin: 8px 0;
+}
+
+.bmi-generated-row .form-row {
+  align-items: center;
+}
+
+.bmi-generated-row small {
+  color: #6c757d;
+}
